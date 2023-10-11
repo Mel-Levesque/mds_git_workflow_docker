@@ -18,10 +18,10 @@ jobs:
         runs-on: ubuntu-latest
 
         steps:
-        - name: Run tests
-                with:
-                    context: .
-                    test-command: "npm test"
+            - name: Run tests
+              with:
+                  context: .
+                  test-command: 'npm test'
 
             - name: Checkoutcode
               uses: actions/checkout@v2
